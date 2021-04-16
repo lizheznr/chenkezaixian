@@ -1,0 +1,24 @@
+<!-- 头部 -->
+<view class="header">
+    <view class="title">我的</view>
+    <view class="message clearfix">
+        <image src="http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbQR5Cg3ZPCdMA4DfzuD.tCAB7ZOXB81LsPVkOBffR1kspuoMKG1gIiXGmjgKKTHdrA!!/mnull&bo=QwI*AgAAAAARB0w!&rf=photolist&t=5" />
+        <view class="txt">
+            <view class="name">昵称：李哲</view>
+            <view class="sex">性别：男</view>
+            <view class="number">学号：189000438</view>
+        </view>
+    </view>
+</view>
+<!-- 列表 -->
+<view class="list">
+    <block wx:for="{{list1}}" wx:key="id">
+        <navigator url="{{item.src}}" class="list-item clearfix">
+            <image class="" src="{{item.imgUrl}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+            <view class="txt">{{item.msg}}</view>
+        </navigator>
+        
+    </block>
+      
+</view>
+  

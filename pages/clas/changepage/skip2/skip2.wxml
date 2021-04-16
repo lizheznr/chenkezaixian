@@ -1,0 +1,38 @@
+<!--pages/skip2/skip2.wxml-->
+<view class="header">个人荣誉</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbWKEG5dk6aLXCpjbmJV9808Gcm1TtLIIbHSKwFywlp*7Nm6n9iGKBLqWndtlU3yZyA!!/mnull&bo=4wCvAAAAAAARB3w!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text>姓名：谭文玉\n</text>
+      <text>班级：1890007\n</text>
+      <text>学号：189000712\n</text>
+      <text>演讲主题：人生的"岔路口"\n</text>
+    </view>
+</view>
+<view class="two">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbWvLdRVbaXMBxFR08i7pmaq1h0aj3N8S42EdrWKOasHwaF2bPR25Octa7a4nK*8ulA!!/mnull&bo=WAKXAQAAAAADB.4!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text>姓名：徐至立\n</text>
+      <text>班级：1890007\n</text>
+      <text>学号：189000702\n</text>
+      <text>演讲主题：中国梦，我的梦\n</text>
+    </view>
+</view>
+<view class="three">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbdA17xUAYanjLU5hlmEDFB3ksCBBqcTQpdQByuDmRVtCJEvc.t76HXcxZBYJ4dkQ0g!!/mnull&bo=AATOAgAAAAADB.o!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text>姓名：张梅\n</text>
+      <text>班级：1890007\n</text>
+      <text>学号：189000722\n</text>
+      <text>演讲主题：迎中秋，庆国庆\n</text>
+    </view>
+</view>
+<view class="five">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbScC0H7amg*yIHPSFbEt1nQaxB7XfSaQ73gm0C37wkkWmJIopj6N8wWT3ejjAQTN*g!!/mnull&bo=6gFvAQAAAAADB6c!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text>姓名：孙杰\n</text>
+      <text>班级：1890007\n</text>
+      <text>学号：189000729\n</text>
+      <text>演讲主题：不可能变成可能</text>
+    </view>
+</view>

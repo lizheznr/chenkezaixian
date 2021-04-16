@@ -1,0 +1,11 @@
+<!-- 标题 -->  
+<view class="header" >
+    <view class="title">演讲PPT对于出彩的演讲有何意义？</view>
+</view>
+<!-- 标题over -->
+<image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbTVbmZ.EcZa5cTxxKe7TCU.d5gcoiQTsOjwrAfKm05nV1Pq2VYBs4a1Ei5QQg.ZwUg!!/mnull&bo=rQRfAgAAAAADB9Y!&rf=photolist&t=5'  ></image>
+<view class="head">优秀的演讲PPT</view>
+<view class="ppt">
+    <image  mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbfp.iZq8StnGy9FlDVwwo2WG3kXGbvL3Nhci.v6oDbphZazKhpY5tu*8UREDpolc5A!!/mnull&bo=OAQkCQAAAAARByE!&rf=photolist&t=5'  ></image>
+    <image  mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbQRkvEDWJpyhQQVr.Vk7O0QwjJLgVclXaLW1pS4S33XdVMet14VvXV84ZTIyO9O23g!!/mnull&bo=OAQkCQAAAAARByE!&rf=photolist&t=5'  ></image>
+</view>

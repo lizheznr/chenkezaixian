@@ -1,0 +1,32 @@
+<!-- 标题 -->  
+<view class="header" >
+    <view class="title">出彩的班级演讲效果，好的演讲会带来高涨的气氛</view>
+</view>
+<!-- 标题over --> 
+
+<!-- 小标题 --> 
+<view >
+    <image class='avatar' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbWC8QrcC6*v2IzVLwwt8sr2q*.ZH8hIzV*97FrLiG7Smmx7rR7xKqEd4MXjuqGhXJQ!!/mnull&bo=NAQ4BAAAAAARBzw!&rf=photolist&t=5' ></image>
+    <view  class="subhead">
+        <view>
+            <text>繁华巷听栏</text>
+        </view>
+        <view class="time">
+            <text decode="emsp">02-04&emsp;阅读&emsp;10000+</text>
+        </view>
+    </view>
+</view>
+<!-- 小标题over -->
+
+<!-- 内容 --> 
+<view class="content">
+    <block wx:for="{{menu}}" wx:key="id">
+        <navigator class="" target="" url="{{item.src}}" open-type="navigate">
+            <view>
+                <text class="txt">{{item.txt}}</text>
+            </view>
+            <image  src="{{item.imgUrl}}" mode="widthFix" lazy-load="false"  />
+        </navigator>   
+    </block>
+</view>
+<!-- 内容over --> 

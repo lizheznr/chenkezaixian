@@ -1,0 +1,25 @@
+Page({
+  data:{
+    menu:[
+      {
+        id:1,
+        src:"",
+        txt:"演讲的本质既然是一种交流，那么最重要的，就是要创造一种令人信任你的状态，很多人把演讲的重点放在了“演”上，其实演讲的重点在于“讲”。",
+        imgUrl:"http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbW4q0Dkbhn.hqRr1.a98uBAs.cQyPNqjQAjbCYheLcu6lvAZC.X2g8rK7TzyOuWXbg!!/mnull&bo=5gDIAAAAAAARBx4!&rf=photolist&t=5",
+      },
+      {
+        id:2,
+        src:"",
+        txt:"什么样的演讲算是好演讲呢？在我看来是七个字：真诚、自然、有内容。想一下，什么时候你会愿意相信一个人对你说的话呢？其实信任这个事儿是很复杂的，但是我们首先要做到的是不让人产生不信任感。人的内心都更愿意相信真诚的东西，一部小说或者电影，哪怕再精彩，当我们意识到它是假的，你就不会相信里面的内容。演讲也是一样的，当你意识到，一个人费尽心思想要达到说服你的目的，你们彼此都不会舒服，那个人很累，你也会天然地产生警觉和抵触情绪。我们宁可相信一个不那么完美，但是却真诚的人，也不愿意相信一个完美无缺、毫无破绽的骗子。",
+        imgUrl:"http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbXrpaBNq8K4MzcrFCq2GQSERJKKeOsOsg*OjbfhcGhHIQ6wPMgZRupJn503tcg1IUw!!/mnull&bo=5gDIAAAAAAARBx4!&rf=photolist&t=5",
+      },
+      {
+        id:3,
+        src:"",
+        txt:"所以千万不要把自己的演讲当作一次压迫式的说服，或者是一个不得不完成的任务，想着让听众必须认同你，接受你说的，而是应该把演讲当作一场开心的分享和交流，这会帮助你和听你演讲的人，卸下很大的压力和包袱。",
+        imgUrl:"http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbeg432U4lf8Mba3A6BPsyzGYqlkC*v1Lih1Rkn6es9sg7.Y04XYfzAlIwQ7XoEuC5Q!!/mnull&bo=5gDIAAAAAAARBx4!&rf=photolist&t=5",
+      }
+    ], 
+  }, 
+  
+})

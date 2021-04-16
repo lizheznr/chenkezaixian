@@ -1,0 +1,64 @@
+<view class="header">月冠军</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbV*gUT2IRa97XnsGfOP3bv27e3Of71AwGB1pk68jptBloE9h*gtxiqReciINXxDIPw!!/mnull&bo=gADBAAAAAAADB2M!&rf=photolist&t=5'  ></image>
+    <view class="content">
+      <text class="txt">弱者不是没有忧伤，而是把忧伤化成力气；弱者不是没有快活，而是把快乐变成担心。\n</text>
+      <text class="author">———田慧婷</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbZP4XkJYese6pfRAfjtzKv80ozY*q*4JSKiBamMR*xilDT2GabA1q1B*04Jc76BjTQ!!/mnull&bo=ewC*AAAAAAADB.Y!&rf=photolist&t=5' ></image>
+    <view class="content">
+      <text class="txt">患得患失，瞻前顾后，无病呻吟，都是因为你活得还不够精彩。\n</text>
+      <text class="author">———舒天缘</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbUNTyx7l9DvapgE.QZBO.2g340TrEG03l52roKc0NGX4fEQG6VqmufRge1Pya6r8Sg!!/mnull&bo=fQDEAAAAAAADB5s!&rf=photolist&t=5' ></image>
+    <view class="content">
+      <text class="txt">人的命运需要由自己主宰，快乐的心情能使一碟菜变为盛宴，找到真正属于自己的生活，并且保持格调，这样才能活出我们自己的精彩。\n</text>
+      <text class="author">———雷长洲</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbTYFV1KwFAGLXrmpBn7jdWquu6BgyxBNabldejIds.*MoykeglKbrcnXWrZiE51fhA!!/mnull&bo=fQDAAAAAAAADB58!&rf=photolist&t=5' ></image>
+    <view class="content">
+      <text class="txt">突然发现，我的身边已经走失了那么多人。原来有些人，不知不觉，就淡了关系。</text>
+      <text class="author">———郭滨睿</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbaWmRFZwhYNpKrl3OZCn3UhkNHefqXGC6*iqNCCrTAHgrrq4LIKnfbYumXuTb273qg!!/mnull&bo=fwC*AAAAAAADB.I!&rf=photolist&t=5' ></image>
+    <view class="content">
+      <text class="txt">欲望以提升热枕，毅力以磨平高山。</text>
+      <text class="author">———李哲</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbVW82TKLg8ZhES8i6tZsCpYaWJxIC1hVfuIFK7DoqIF2*5F7i4tpaGnF4rmg2C2EBA!!/mnull&bo=fQDDAAAAAAADB5w!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text class="txt">不要等待机会，而要创造机会。</text>
+      <text class="author">———纪睿</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbTg.oUKVGrR67bieJDdShfywVPwU1eeEXjYXMYLL4dFmYmqkUs2Jto*u.jjr0LMqww!!/mnull&bo=fgDAAAAAAAADB5w!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text class="txt">没有天生的信心，只有不断培养的信心。</text>
+      <text class="author">———李沙</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbceg119Q6IndsUuZ*wGxsY3CRvGz.bFZw*CAXiaSrmp1QwmIbnisALFL*plt1sOB.Q!!/mnull&bo=dwDBAAAAAAADB5Q!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text class="txt">人不是因为知道而改变，而是因为触动而改变。</text>
+      <text class="author">———刘耀文</text>
+    </view>
+</view>
+<view class="one">
+    <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbbXAyH2w9n*gy5q1KKng3h5a77HGfrsisAKlRx1diFPbi8r.PYisbYoaXabj4P0C*w!!/mnull&bo=dQDCAAAAAAADB5U!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+    <view class="content">
+      <text class="txt">你的理想是诗，理想是梦，理想是远方的田野，理想是穿越世界的旅行。但现在你能做的所有，只是把手握紧，厚积薄发，你只有付出，付出你的时间，赌上你的尊严，拿出你的全部，你的everything。</text>
+      <text class="author">———谭静</text>
+   </view>
+</view>

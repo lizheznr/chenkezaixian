@@ -1,0 +1,19 @@
+<view class="table">
+  <view class="tr">
+    <view class="th1">序号</view>
+    <view class="th1">班级</view>
+    <view class="th1">主题</view>
+    <view class="th1">姓名</view>
+    <view class="th1">得分</view>
+  </view>
+  <view class='a' wx:for="{{post}}"><!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+    <view class="tr">
+      <!--item就相当于数组名+下标的结合体，适用于调用数组所有数据-->
+      <view class="th">{{item.num}}</view>
+      <view class="th">{{item.uclass}}</view>
+      <view class="th">{{item.title}}</view>
+      <view class="th">{{item.name}}</view>
+      <view class="th">{{item.score}}</view>
+    </view>
+  </view>
+</view> 

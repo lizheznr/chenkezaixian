@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/clas/clas",
+    "pages/score/score",
+    "pages/score/start/start",
+    "pages/clas/changepage/switch1/switch1",
+    "pages/clas/changepage/switch2/switch2",
+    "pages/clas/changepage/skip4/skip4",
+    "pages/clas/changepage/skip3/skip3",
+    "pages/clas/changepage/skip2/skip2",
+    "pages/clas/changepage/skip1/skip1",
+    "pages/clas/changepage/jump2/jump2",
+    "pages/clas/changepage/switch3/switch3",
+    "pages/index/next/next",
+    "pages/index/recent/recent",
+    "pages/index/recommend/recommend",
+    "pages/index/share/01/01",
+    "pages/index/share/02/02",
+    "pages/index/share/03/03",
+    "pages/index/share/05/05",
+    "pages/index/share/06/06",
+    "pages/index/share/07/07",
+    "pages/index/share/08/08"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "重工晨课",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/_index.png",
+        "selectedIconPath": "icon/index.png"
+      },
+      {
+        "pagePath": "pages/clas/clas",
+        "text": "班级",
+        "iconPath": "icon/_clas.png",
+        "selectedIconPath": "icon/clas.png"
+      },
+      {
+        "pagePath": "pages/score/score",
+        "text": "评分",
+        "iconPath": "icon/_score.png",
+        "selectedIconPath": "icon/score.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/_mine.png",
+        "selectedIconPath": "icon/mine.png"
+      }
+    ],
+    "selectedColor": "#13227a",
+    "color": "#bfbfbf",
+    "backgroundColor": "#eee"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

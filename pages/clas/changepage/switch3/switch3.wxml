@@ -1,0 +1,16 @@
+<view class="banner">
+  <text>他们的精彩演讲</text>
+</view>
+<view wx:for="{{list}}">
+    <view>
+       <video id="index{{index}}" src="{{item.video_url}}" wx:if="{{playIndex==index}}"></video>
+    </view>
+    <view id="{{index}}" class="cover" style="display: {{playIndex==index?'none':'block'}};" bindtap="videoPlay">
+      <image class="coverImg" src="{{item.poster}}" mode="scaleToFill">
+        <image class="playImg" src="http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbck6ZYpFpQM2PN04iW6S5ZodBI4kHMnjvUOL*KcLMsAC453Oan0iF.9YXTN.d6376Q!!/mnull&bo=AAEAAQAAAAARBzA!&rf=photolist&t=5" mode="scaleToFill"></image>
+      </image>
+    </view>
+    <view class="content" >
+      <text >{{item.txt}}</text>
+    </view>
+</view>

@@ -1,0 +1,34 @@
+<view class="bj">
+    
+    <!-- 功能区 -->
+    <view class="pass">
+        <block wx:for="{{talk}}" wx:key="id">
+            <navigator url="{{item.src}}" class="banner clearfix">
+                <view class="photo" style="border-color:{{item.color}}">
+                    <image src="{{item.imgUrl}}" />
+                </view>
+                <view>
+                    <text >{{item.title}}</text>
+                </view>
+            </navigator>
+        </block>
+    </view>
+
+    <!-- 分享区 -->
+    <view class="myShare">
+        <!-- 标题 -->
+        <view class="title">分享区</view>
+        <!-- 主区域 -->
+        <block wx:for="{{share}}" wx:key="id">
+            <navigator url="{{item.src}}" class="banner clearfix">
+                <image src="{{item.imgUrl}}" />
+                <view class="con">
+                    <text>{{item.content}}</text>
+                </view>
+                <view class="time">
+                    <text>{{item.time}}</text>
+                </view>
+            </navigator>
+        </block>
+    </view>
+</view>

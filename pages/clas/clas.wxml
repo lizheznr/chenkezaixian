@@ -1,0 +1,84 @@
+<!-- 头部 -->
+<view class="header">
+    <!-- 选项栏 -->
+    <view class="choose clearfix">
+        <block wx:for="{{mychoose}}" wx:key="id" bindtap="clicked">
+            <view class="choose-item {{item.id == currentId ? 'choosed':''}}" id="{{item.id}}" bindtap="clicked">
+                {{item.content}}
+            </view>
+        </block>
+    </view>      
+</view>
+
+<!-- 列表主体 -->
+<!-- 第一部分-->
+  <view class='selection' hidden="{{currentId != 1}}">
+    <!-- 头部文字 -->
+    <view class="header01">
+        <text style='margin-left: 5px;'>演讲知识</text>
+    </view>
+    <!-- 内容 -->
+    <view class="banner" hidden="{{currentId != 1}}">
+        <view wx:for="{{menu}}" bindtap="pageskip" data-id="{{item.id}}">
+            <navigator class="" target="" url="{{item.src}}" open-type="navigate">
+                <image style="width:700rpx;" src="{{item.imgUrl}}" mode="widthFix" lazy-load="false"  />
+                <view>
+                    <text class="content">{{item.txt}}</text>
+                </view>
+                <view>
+                    <text class="additive">{{item.writer}}  {{item.comment}}条评论</text>
+                </view>
+            </navigator>   
+        </view> 
+        <view class="image-parent">
+            <image class='image' mode='widthFix' src='http://m.qpic.cn/psc?/V11h8Exn09veod/U3..NSiujzLMR7a*2QgXbcAKcOxyRrEzydyfb24oaYoTdWftcHtfUd0durY6M9AwWRbUCpRb71AyDnh0J88H4Q!!/mnull&bo=kAEsAQAAAAARB4w!&rf=photolist&t=5'  bindtap='pageskip3'></image>
+            <view class="text"  bindtap='pageskip3'>快来欣赏欣赏班级里那些优秀同学的精彩演讲吧 (๑´ڡ`๑)</view>
+        </view>   
+    </view>
+  </view>
+
+  <!-- 第二部分-->
+  <view class='selection'  hidden="{{currentId != 1}}">
+    <!-- 头部文字 -->
+    <view class="header01">
+      <text style='margin-left: 5px;'>班级荣誉</text>
+    </view>
+    <!-- 内容 -->
+    <view class='content'>
+      <view class='content-item'  bindtap="skip" wx:for="{{contentImgUrls}}" wx:key="url" data-id="{{item.id}}" wx:for-item="item">
+        <!-- 图片 -->
+        <image src="{{item.imgUrl}}" class="slide-image" mode='scaleToFill'/>
+        <!-- 图片上的文字说明 -->
+        <view class='content-item-title'>
+          <text>{{item.title}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+    
+  <!-- 第三部分 -->
+  <view class='selection'  hidden="{{currentId != 1}}">
+    <!-- 头部文字 -->
+    <view class="header01">
+      <text style='margin-left: 5px;'>班级作品</text>
+    </view>
+      <!-- 内容 -->
+    <view class='list-item' wx:for="{{HotImgUrls}}" bindtap="jump"  data-id="{{item.id}}"  wx:key="url" wx:for-item="item">
+      <!-- 文章图片 -->
+      <view class='list-item-image'>
+        <image src='{{item.url}}'  class="slide-image" mode='scaleToFill'></image>
+        <!-- 作者头像 -->
+        <image src='{{item.head}}'  class="avatar" mode='scaleToFill'></image>
+      </view>
+    
+      <!-- 文章内容 -->
+      <view class='list-item-text'>
+        <view class='list-item-text-title'>
+          <text>{{item.title}}</text>
+        </view>
+        <view class='list-item-text-context' >
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+    </view>
+  </view>

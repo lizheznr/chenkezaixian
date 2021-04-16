@@ -1,0 +1,100 @@
+<view class="table">
+  <view class="tr">
+    <view class="th th1">班级代码</view>
+    <view class="th th2">2.3月</view>
+    <view class="th th3">4月</view>
+    <view class="th th4">平均</view>
+    <view class="th th5">排名</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890005</view>
+    <view class="td td2">90</view>
+    <view class="td td3">100</view>
+    <view class="td td4">90</view>
+    <view class="td td5">1</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890007</view>
+    <view class="td td2">90</view>
+    <view class="td td3">90</view>
+    <view class="td td4">90</view>
+    <view class="td td5">2</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890009</view>
+    <view class="td td2">90</view>
+    <view class="td td3">90</view>
+    <view class="td td4">90</view>
+    <view class="td td5">3</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890008</view>
+    <view class="td td2">90</view>
+    <view class="td td3">90</view>
+    <view class="td td4">90</view>
+    <view class="td td5">4</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890010</view>
+    <view class="td td2">90</view>
+    <view class="td td3">80</view>
+    <view class="td td4">90</view>
+    <view class="td td5">5</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890003</view>
+    <view class="td td2">80</view>
+    <view class="td td3">90</view>
+    <view class="td td4">90</view>
+    <view class="td td5">6</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890002</view>
+    <view class="td td2">90</view>
+    <view class="td td3">80</view>
+    <view class="td td4">90</view>
+    <view class="td td5">7</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890004</view>
+    <view class="td td2">90</view>
+    <view class="td td3">80</view>
+    <view class="td td4">80</view>
+    <view class="td td5">8</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890001</view>
+    <view class="td td2">90</view>
+    <view class="td td3">80</view>
+    <view class="td td4">80</view>
+    <view class="td td5">9</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890006</view>
+    <view class="td td2">80</view>
+    <view class="td td3">90</view>
+    <view class="td td4">80</view>
+    <view class="td td5">10</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1894001</view>
+    <view class="td td2">80</view>
+    <view class="td td3">80</view>
+    <view class="td td4">80</view>
+    <view class="td td5">11</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890012</view>
+    <view class="td td2">80</view>
+    <view class="td td3">80</view>
+    <view class="td td4">80</view>
+    <view class="td td5">12</view>
+  </view>
+  <view class="tr">
+    <view class="td td1">1890011</view>
+    <view class="td td2">80</view>
+    <view class="td td3">70</view>
+    <view class="td td4">70</view>
+    <view class="td td5">13</view>
+  </view>
+</view>

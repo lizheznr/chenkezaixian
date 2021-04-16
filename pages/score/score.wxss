@@ -1,0 +1,18 @@
+navigator{
+    display: block;
+    margin: 140rpx;
+    margin-top: 270rpx;
+    padding: 0;
+    width: 500rpx;
+    height: 500rpx;
+    border-radius: 50%;
+    background-color: #1E90FF;
+    font-weight: normal;
+}
+button{
+    text-align: center;
+    line-height: 450rpx;
+    font-size: 60rpx;
+    color: #fff;
+    background-color: transparent;
+}

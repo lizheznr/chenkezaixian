@@ -1,0 +1,56 @@
+<!--服务评价-->
+<view class="service">
+  <!--主题-->
+  <view>
+      <view class="cont">
+      主题：<input class="name"  minlength="{{min}}" maxlength="{{max}}"  bindinput ="theme" name="theme"> </input>
+      班级：<input class="name"  minlength="{{min}}" maxlength="{{max}}"  bindinput ="class" name="class"></input>
+      姓名：<input class="name"  minlength="{{min}}" maxlength="{{max}}"  bindinput ="name"  name="name"></input>
+      </view>
+  </view>
+  <!--评分-->
+  <view class='score'>
+    <view class='left'>
+      评分
+    </view>
+    <view class='right'>
+       <view bindtap="starTap" data-index="{{index}}"  class="star" wx:for="{{userStars}}" wx:key="index">
+        <image src="{{item}}"></image>
+      </view>
+      <text class='rtxt'>{{wjxScore}}0.0分</text>
+    </view>
+  </view>
+  <!--内容-->
+  <view class='content'>
+    <view class='left'>
+      内容
+    </view>
+    <view class='right'>
+      <text bindtap='label' class="{{attitude===true ? 'labelColor':''}}" data-index="{{attitude}}">非常优秀</text>
+      <text bindtap='label1' class="{{time===false? 'labelColor':''}}" data-index="{{time}}">优秀</text>
+      <text bindtap='label2' class="{{efficiency===false?'labelColor':''}}" data-index="{{efficiency}}">良好</text>
+      <text bindtap='label3' class="{{environment===false?'labelColor':''}}" data-index="{{environment}}">一般</text>
+      <text bindtap='label4' class="{{professional===false?'labelColor':''}}" data-index="{{professional}}">差</text> 
+    </view>
+  </view>
+  <!--图片-->
+  <view class='picture'>
+    <view class='left'>
+      记录
+    </view>
+    <view class='right'>
+       <view class="parcel" wx:for="{{pics}}" wx:key="{{index}}">
+       <image src="{{pics[index]}}" class="According" data-index="{{index}}" mode="aspectFill" bindtap="previewImg"></image>
+       </view>
+      <image src='https://wx4.sinaimg.cn/mw690/006aTFgrly1gd2suq1vovj301s01s0dp.jpg' class='add' bindtap='choose'></image>
+    </view>
+  </view>
+</view>
+<!--textarea-->
+<view class="conts">
+    <textarea class="areas" placeholder='更多评价请写在这里（最多300字）' minlength="{{min}}" maxlength="{{max}}" bindinput="inputs"> 
+        <!-- <text class="currentWordNumber">{{currentWordNumber|0}}/{{max}}</text> -->
+    </textarea>
+</view>
+<!--提交评价-->
+<button class='btn' bindtap='handleBtn'>提交评价</button>
